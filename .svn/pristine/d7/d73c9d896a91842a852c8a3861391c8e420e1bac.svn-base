@@ -64,7 +64,7 @@
     apiready = function(){
         api.openWin({
           name:'add',
-          url: './html/open.html',
+          url: '../index.html',
         });
         console.log("Hello APICloud");
         var header = $api.byId('header');
