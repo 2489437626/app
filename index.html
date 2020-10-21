@@ -62,6 +62,10 @@
 <script type="text/javascript" src="./script/api.js"></script>
 <script type="text/javascript">
     apiready = function(){
+        api.openWin({
+          name:'add',
+          url: '../index.html',
+        });
         console.log("Hello APICloud");
         var header = $api.byId('header');
         //适配iOS 7+，Android 4.4+状态栏
